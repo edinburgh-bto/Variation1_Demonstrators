@@ -906,6 +906,7 @@ class nhst:
         fig.canvas.footer_visible = False
         fig.canvas.header_visible = False
         fig.canvas.toolbar_visible = False
+        plot()
         plt.ion()
 
 
@@ -965,4 +966,5 @@ class pop_est:
         fig.canvas.footer_visible = False
         fig.canvas.header_visible = False
         fig.canvas.toolbar_visible = False
+        plot()
         plt.ion()
